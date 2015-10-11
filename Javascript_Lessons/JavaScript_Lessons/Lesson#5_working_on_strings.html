@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson#5</title>
+    <script>
+
+        //step#1
+      /*  var firstname ="Parkash";
+        var lastname="kumar";
+        document.write("Firstname: "+firstname+"<br>");
+        document.write("Lastname: "+lastname+"<br>");
+        //we can concate two strings with the help of '+' operation
+        document.write("Fullname: "+firstname +" "+ lastname);*/
+
+        //step#2
+       /* var greeting ="hElo WoRld";
+        var uppercase=greeting.toUpperCase();//converts to uppercase
+        var lowercase=greeting.toLowerCase();//converts to lower case
+        var length=greeting.length;//returns length of string
+        document.write("Original text: "+greeting+"<br>"
+                    +"Uppercase: "+uppercase+"<br>"
+                    +"Lowercase: "+lowercase+"<br>"
+                    +"Length of string: "+length+"<br>");*/
+
+        //step#3
+       /* var paragraph="JavaScript is a high level, dynamic, untyped, and interpreted programming" +
+                "language.It has been standardized in the ECMAScript language specification.";
+
+        var position=paragraph.charAt(23);//Returns the character at the specified index (position)
+        var ascii_value=paragraph.charCodeAt(0);//Returns the Unicode of the character at the specified index
+        var index_of=paragraph.indexOf('i');//Returns the position of the first found occurrence of a specified value in a string
+        var last_occurance=paragraph.lastIndexOf('a');//Returns the position of the last found occurrence of a specified value in a string
+        document.write("Position: "+position+"<br>"+"Ascii code: "+ascii_value+"<br>"+"Index of char: "+index_of+"<br>");
+        var unicode_to_char=String.fromCharCode(ascii_value);//Converts Unicode values to characters
+        document.write("Unicode: "+unicode_to_char+"<br>"+"Last_Index: "+last_occurance+"<br>");*/
+
+
+        //step#4 searching methods and HTML wrapper method
+
+      /*  var paragraph="JavaScript is a high level, dynamic, untyped, and interpreted programming" +
+                "language.It has been standardized in the ECMAScript language specification.";
+        var search=paragraph.search('JavaScript');
+       // Searches a string for a specified value, or regular expression, and returns the position of the match
+
+
+        var web="www.google.com";
+        var achor="www.fb.com";
+        var formula1="H";
+        var formula2="2";
+        var formula3="C";
+       var color=paragraph.fontcolor('blue').bold().italics().big();
+        var size=paragraph.fontsize(32);
+      //  var strike=paragraph.strike().link("http://www.google.com");
+        web=web.link("http://www.google.com");
+        achor=achor.anchor("fb");
+        var sub=formula1.concat(formula2.sub(),formula3).fontcolor("red");
+        alert(achor);
+        document.write(color+"<br>"+web+"<br>"+sub);*/
+
+
+        //step#5
+       /* var content = "web content production; the majority of websites employ" +
+        "it and it is supported by all modern web browsers without plug-ins";
+        document.write("Original Content: "+content.fontcolor('green')+"<br>");
+
+        var replace_content='website';
+      //  content=content.replace('web',replace_content.fontcolor('red'));// this line replaces very first web with website
+        content=content.replace(/web/g,replace_content.fontcolor('red'));// this line replaces all web with website
+        document.write("Original Content: "+content.fontcolor('green'));
+       */
+
+        //step#6
+       /* var line="Helo this is my lessons";
+        //var newline=line.slice(0,12);
+       // var newline=line.slice(5);
+        //slice() method extract specific part of string first argument starting point second argument endpoint
+        document.write(newline);*/
+
+      //  substring() is similar to slice().The difference is that substring() cannot accept negative indexes.
+
+       /* var str = "Apple, Banana, Kiwi";
+        var newstr=str.slice(-4);//-ve argument counts from end of the...
+        document.write(newstr);*/
+
+        //substr() is similar to slice().The difference is that the second parameter specifies the length of the extracted part.
+        /*var str = "Apple, Elephant, Kiwi";
+        var res = str.substr(7,8);
+        document.write(res);*/
+
+//split ()=> method converts strings into array we will discuss it after array lesson.
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
