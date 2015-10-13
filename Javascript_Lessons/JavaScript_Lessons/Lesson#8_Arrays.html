@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson#8</title>
+    <script>
+        //array is basically a datatype it stores data single datatype but in js bit more
+        // diff. concept if stores data all types of DT
+
+        //step#1
+       /* var ary= [];
+        ary[0]="Parkash";
+        ary[1]="zain";
+        ary[2]="Hadi";
+        document.write("Name: "+ary[0]);*/
+
+        //step#2 another way to do this
+
+        /*var names=["Parkash","zain","Hadi"];
+        document.write("Name: "+names[1]+"<br>");
+        names[1]="Rabeea";
+        document.write("Name: "+names[1]+"<br>");
+        document.write("Name: "+names[5]);*/
+
+
+        //for traversing an array we use loop
+       /* var names=["Parkash","zain","Hadi"];
+        for(var i=0;i<names.length;i++)
+        {
+            document.write("Name: "+names[i]+"<br>");
+        }*/
+
+        //step#3 : User authentication
+       /*  var users=["Hadi","Parkash","Zain","Rabeea","Sana","Rehan"];
+        var user_login="parkash";
+        var check=false;
+        for(var i=0;i<users.length;i++)
+        {
+            if(users[i].toLowerCase()===user_login.toLowerCase())
+            {
+                check=true;
+                document.writeln((user_login+" is valid user").fontcolor("royalblue"));
+            }
+        }
+        if(check===false)
+        {
+            document.writeln((user_login+" is an invalid user").fontcolor("red"));
+        }*/
+
+        //step#4 : Mixed array
+       /* var mixed_array=[32,"parkash",true,[3],{"age":33}];
+        for(var i=0;i<mixed_array.length;i++)
+        {
+            document.write("Value: "+mixed_array[i]+"<br>"+" Type: "+typeof(mixed_array[i])+"<br><br>");
+        }
+
+        var array=[1,3,4,5];
+        var new_array=array;
+        document.write(typeof (new_array));*/
+
+        //step#5: 2D array
+      /*  var two_dimensional_array=[[1,3,4],["paraksh","zain","hadi"]];
+        for(var i=0;i<two_dimensional_array.length;i++)
+        {
+            for(var j=0;j<two_dimensional_array[i].length;j++)
+            {
+                document.write("Value:"+ two_dimensional_array[i][j]+"<br>");
+
+            }
+        }*/
+
+        //step#6: Associative array === Values are access by keys
+     /*   var ass_array=["helo"];
+        ass_array["Name"]='Parkash';
+        ass_array["Age"]=23;
+        console.log(ass_array);
+        console.log(ass_array.length);
+        for (var i in ass_array)
+        {
+            document.write(ass_array[i]+"<br>");
+        }*/
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
