@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prototype_Object</title>
+    <script>
+
+        //step#1
+       /* var obj={};
+        console.log(Object.getPrototypeOf(obj));
+        console.log(Object.prototype);*/
+
+        //step#2
+
+        //These all are prototype objects
+       /* var obj = new Object();
+        var ary =new  Array();
+        var regex=new RegExp();*/
+/*
+        var obj=new object("pk",20);
+
+        function object(name,age){
+            this.name=name;
+            this.age=age;
+        }
+
+        //console.log(obj.name);
+
+        var obj1=Object.create(obj);
+        console.log(obj1);
+       // obj1.name="hadi";
+        obj1.sex="male";
+        console.log(obj1);
+
+        var obj2=Object.create(obj1);
+       // console.log(obj2.name);
+        console.log(obj2);*/
+
+
+        //step#3
+      /*  function Message (subject, recipient, content){
+            this.subject = subject;
+            this.recipient = recipient;
+            this.content = content;
+            /!*this.show=function(){}*!/
+        }
+
+        Message.prototype = {
+            constructor: Message,
+            sendMessage: function(){
+                console.log('Sending message to ' + this.recipient);
+            },
+            show : function(){
+                console.log('To:' + this.recipient + 'Subject: ' + this.subject + 'Message:'
+                        + this.content);
+            }
+        };
+
+        var workMessage = new Message('Work complete', 'boss@mycorp.com', 'My work is done here');
+        var socialMessage = new Message('Time to go out', 'friend@gmail.com', 'Finished work now.');
+        workMessage.sendMessage();
+        socialMessage.sendMessage();*/
+
+
+        //step#4
+      /*  var obj={name:"pk",age:23}
+        var obj2={};
+        obj2.prototype=obj; here prortype use like an extend keyword
+        console.log(obj2);*/
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
